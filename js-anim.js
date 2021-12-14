@@ -36,14 +36,9 @@
         window.requestAnimationFrame(step);
     }
 
-let text1 = document.getElementById('0101');
-let text2 = document.getElementById('0102');
-let text3 = document.getElementById('0103');
+let text1 = document.getElementById('donocounter');
 
 const load = () =>{
 
-    animate(text1, 0, 907, 5000);
-    animate(text2, 0, 432, 5000);
-    animate(text3, 100, 12, 5000);
-
+    animate(text1, 0, 545, 5000);
 }
